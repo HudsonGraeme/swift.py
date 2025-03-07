@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "swift.py"
+version = "0.1.0"
+authors = [
+  { name="Hudson Graeme" },
+]
+description = "Swift's Grand Central Dispatch (GCD) implemented in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HudsonGraeme/swift.py"
+"Bug Tracker" = "https://github.com/HudsonGraeme/swift.py/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/swift"]
+
+[tool.hatch.build]
+only-packages = true
+packages = ["src/swift"]
