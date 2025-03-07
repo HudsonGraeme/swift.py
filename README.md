@@ -6,12 +6,10 @@ A Python implementation of Apple's Grand Central Dispatch (GCD) pattern, bringin
 
 ```bash
 # Using uv (recommended - faster)
-uv pip install swift.py
-```
+uv pip install swiftpy-gcd
 
-```bash
 # Using pip
-pip install swift.py
+pip install swiftpy-gcd
 ```
 
 ## Usage
